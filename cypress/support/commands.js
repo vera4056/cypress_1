@@ -38,3 +38,17 @@ Cypress.Commands.add('login', (email, password) => {
    
     cy.contains('Submit').click()
      })
+
+    //  Cypress.Commands.add new book('Book description', (title, description, cover, Book file, autors) => {
+    //     cy.contains('Log in').click()
+    
+    //     if(email) {
+    //         cy.get('#mail').type('test@test.com')
+    //     }
+        
+    //     if(password) {
+    //         cy.get('#pass').type('test')
+    //     }
+       
+    //     cy.contains('Submit').click()
+    //      })
